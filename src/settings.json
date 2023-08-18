@@ -1,0 +1,328 @@
+{
+    //#文件设置
+    //自动保存
+    "files.autoSave": "afterDelay",
+    //格式化后保存
+    "editor.formatOnSave": true,
+    //#编辑器设置
+    //编辑器参考缩进线
+    "editor.guides.indentation": true,
+    //编辑器字体大小
+    "editor.fontSize": 20,
+    //字体宽度正常
+    "editor.fontWeight": "550",
+    //编辑器字体
+    "editor.fontFamily": "'Droid Sans Mono', 'Hack Nerd Font', Hack Nerd Font",
+    //括号参考线
+    "editor.guides.bracketPairs": true,
+    //禁止连体字
+    "editor.fontLigatures": false,
+    //长单词不换行
+    "editor.wordWrap": "off",
+    "diffEditor.wordWrap": "off",
+    //效果
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
+    //80字尺标
+    "editor.rulers": [
+        80
+    ],
+    //智能提示相关自动显示
+    "editor.inlineSuggest.enabled": true,
+    //不关闭代码片段时的智能提示
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    //#终端/控制台设置
+    //控制台字体
+    "debug.console.fontFamily": "",
+    //终端字体大小
+    "terminal.integrated.fontSize": 18,
+    //终端滚动效果
+    "terminal.integrated.smoothScrolling": true,
+    //环境变量
+    "terminal.integrated.env.linux": {},
+    //代码不用在终端运行
+    "code-runner.runInTerminal": true,
+    //#美化相关
+    //窗口放大比例:1是20%
+    "window.zoomLevel": 1,
+    //对话框外观
+    "window.dialogStyle": "custom",
+    //vscode主题
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    //vscode图标主题
+    "workbench.iconTheme": "material-icon-theme",
+    //滚动效果
+    "workbench.list.smoothScrolling": true,
+    //不和操作系统的亮暗模式呼应
+    "window.autoDetectHighContrast": false,
+    //不重要
+    "workbench.editor.autoLockGroups": {
+        // "vscode.markdown.preview.editor": true,
+    },
+    //括号颜色
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground2": "#ffd700",
+        "editorBracketHighlight.foreground4": "#da70d6",
+        "editorBracketHighlight.foreground3": "#179fff",
+        "editorBracketHighlight.foreground1": "#ffffff",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    // //背景图片
+    "background.fullscreen": {
+        "background.enabled": false,
+        "images": [
+            "file:///home/luoyebai/图片/background.webp",
+            // 不透明度
+            // "opacity": 0.995,
+        ],
+    },
+    //特殊的注释颜色
+    "better-comments.tags": [
+        {
+            //标记符号
+            "tag": "!",
+            //颜色
+            "color": "#FF2D00",
+            //删除线
+            "strikethrough": false,
+            //下划线
+            "underline": false,
+            //背景颜色
+            "backgroundColor": "transparent",
+            //粗体
+            "bold": false,
+            //斜体
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "#",
+            "color": "#FFFFFF",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    //#禅模式
+    "zenMode.centerLayout": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    //#vim设置
+    "vim.leader": " ",
+    //jk代替esc
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+    ],
+    "vim.easymotion": true,
+    "vim.easymotionKeys": "hklyuiopnm,qwertzxcvbasdgjf;",
+    "vim.easymotionJumpToAnywhereRegex": "\\b[A-Za-z0-9]|[A-Za-z0-9]\\b|_.|#.|[a-z][A-Z]",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "a",
+            ],
+            "commands": [
+                "editor.action.quickFix",
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d",
+            ],
+            "commands": [
+                "editor.debug.action.openDisassemblyView"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ],
+        },
+        {
+            // toggle easy motion, but two word
+            "before": [
+                "leader",
+                "W"
+            ],
+            "after": [
+                "leader",
+                "leader",
+                "2",
+                "s"
+            ],
+        },
+        {
+            "before": [
+                "ctrl+]",
+            ],
+            "after": [
+                "ctrl+w",
+                ">",
+            ],
+        },
+        {
+            "before": [
+                "ctrl+[",
+            ],
+            "after": [
+                "ctrl+w",
+                "<",
+            ],
+        },
+        {
+            "before": [
+                "ctrl+j",
+            ],
+            "after": [
+                "ctrl+w",
+                "j",
+            ],
+        },
+        {
+            "before": [
+                "ctrl+i",
+            ],
+            "after": [
+                "ctrl+w",
+                "k",
+            ],
+        },
+        {
+            "before": [
+                "ctrl+h",
+            ],
+            "after": [
+                "ctrl+w",
+                "h",
+            ],
+        },
+        {
+            "before": [
+                "ctrl+l",
+            ],
+            "after": [
+                "ctrl+w",
+                "l",
+            ],
+        },
+        {
+            // toggle easy motion
+            "before": [
+                "leader",
+                "w"
+            ],
+            "after": [
+                "leader",
+                "leader",
+                "s"
+            ],
+        },
+    ],
+    // #git设置
+    //默认git clone文件夹
+    "git.defaultCloneDirectory": "",
+    "git.openRepositoryInParentFolders": "never",
+    //#自动注释
+    "doxdocgen.generic.authorName": "luoyebai",
+    "doxdocgen.generic.authorEmail": "2112216825@qq.com",
+    //#语言相关
+    //ai
+    "Codegeex.Privacy": false,
+    //debug
+    "debug.showBreakpointsInOverviewRuler": true,
+    //clang格式化默认文件
+    "clang-format.assumeFilename": "/home/luoyebai/.clang-format",
+    //c/c++
+    //cmake 自动配置
+    "cmake.configureOnOpen": true,
+    "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    //c++静态文本检查
+    "cpp-check-lint.cppcheck.--std_c++=": "c++20",
+    "cpp-check-lint.cpplint.--filter=": "-whitespace,-legal/copyright",
+    //python
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.analysis.autoImportCompletions": true,
+    //
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showAbbreviationSuggestions": true,
+    "emmet.showExpandedAbbreviation": "always",
+    //#其他插件
+    //画图
+    "hediet.vscode-drawio.resizeImages": null,
+    //截图
+    "screencastMode.fontSize": 40,
+    "screencastMode.mouseIndicatorColor": "#FFFFFF",
+    "screencastMode.verticalOffset": 10,
+    //license
+    "licenser.author": "luoyebai",
+    "licenser.license": "MIT",
+    "workbench.settings.applyToAllProfiles": [
+        "licenser.author"
+    ],
+    //谷歌翻译
+    "vscodeGoogleTranslate.preferredLanguage": "Chinese (Simplified)",
+    "explorer.confirmDelete": false,
+    "debug.disassemblyView.showSourceCode": false,
+}
