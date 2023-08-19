@@ -149,32 +149,39 @@ ctrl+alt+t----翻译不替换
 1. indent-rainbow
 
 使用前:
+
 ![IndentRainbow](./docs/vscode插件推荐/IndentRainbowPre.png)
 
 使用后:
+
 ![IndentRainbow](./docs/vscode插件推荐/IndentRainbow.png)
 
 2. Trailing Spaces
 
 使用前:
+
 ![TrailingSpacesPre](./docs/vscode插件推荐/TrailingSpacesPre.png)
 
 使用后:
+
 ![TrailingSpaces](./docs/vscode插件推荐/TrailingSpaces.png)
 
 3. Better Comments
 
 有颜色的注释.
+
 ![BetterComments](./docs/vscode插件推荐/BetterComments.png)
 
 4. Error lens
 
 报错在显示编辑器上.
+
 ![ErrorLens](./docs/vscode插件推荐/ErrorLens.png)
 
 5. Image preview
 
 显示图片.
+
 ![ImagePreview](./docs/vscode插件推荐/ImagePreview.png)
 
 6. 背景美化----background
@@ -184,6 +191,7 @@ ctrl+alt+t----翻译不替换
 效果:vscode后加上背景
 
 效果如图所示
+
 ![Background](./docs/vscode插件推荐/Background.png)
 
 ### **实用插件**
@@ -193,16 +201,19 @@ ctrl+alt+t----翻译不替换
 1. CodeGeeX
 
 人工智能补全,免费.
+
 ![CodeGeeX](./docs/vscode插件推荐/CodeGeeX.gif)
 
 2. codesnippet
 
 生成代码块.
+
 ![CodeGeeX](./docs/vscode插件推荐/codesnippet.gif)
 
 3. Doxygen Documentation Generator
 
 自动生成注释.
+
 ![DoxygenDocumentationGenerator](./docs/vscode插件推荐/DoxygenDocumentationGenerator.gif)
 
 #### git(待更新)
